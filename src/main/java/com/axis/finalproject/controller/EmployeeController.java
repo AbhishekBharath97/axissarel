@@ -29,6 +29,7 @@ public class EmployeeController {
 	private EmployeeeService empService;
  
 	
+	
 	@GetMapping("emp/{empId}")
 	public Employee getEmployeeById(@PathVariable Integer empId) {
 		return empService.getEmployeeId(empId);
